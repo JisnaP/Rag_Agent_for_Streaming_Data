@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAG Agent Chat</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 2em auto; }
+    #chat { border: 1px solid #ccc; padding: 1em; height: 400px; overflow-y: auto; }
+    .message { margin: 0.5em 0; }
+    .user { color: blue; }
+    .bot { color: green; }
+    #inputForm { display: flex; margin-top: 1em; }
+    #messageInput { flex: 1; padding: 0.5em; }
+    #sendBtn { padding: 0.5em 1em; }
+  </style>
+</head>
+<body>
+  <h1>RAG Agent Chat</h1>
+  <div id="chat"></div>
+  <form id="inputForm">
+    <input id="messageInput" type="text" placeholder="Type your message..." autocomplete="off" />
+    <button id="sendBtn" type="submit">Send</button>
+  </form>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

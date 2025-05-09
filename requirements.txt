@@ -1,0 +1,11 @@
+langchain-community
+langgraph
+apscheduler
+python-dotenv 
+langchain-chroma
+langchain_huggingface
+sentence-transformers
+langchain_tavily
+langchain-openai
+fastapi
+python-multipart
