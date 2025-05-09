@@ -4,7 +4,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 import asyncio
 
 scheduler = AsyncIOScheduler()
-
+# scheduler.add_job(ingest_pipeline, 'cron', hour=0, minute=0)
 # Schedule your fetch_documents job
 scheduler.add_job(
     ingest_pipeline, 

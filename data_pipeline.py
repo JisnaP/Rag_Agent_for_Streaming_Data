@@ -121,7 +121,7 @@ async def ingest_pipeline(API_URL):
     # Embed and store using LangChain
     embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
    
-    vector_db = Chroma.from_documents(all_splits,persist_directory="chroma_db",embedding=embeddings
+    vector_db = Chroma.add_documents(all_splits,persist_directory="chroma_db",embedding=embeddings
                                       )
    
     
