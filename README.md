@@ -137,3 +137,7 @@ Open your browser at http://127.0.0.1:8000/.
 
 ## Lisence 
 MIT Lisence
+
+## Example Response 
+
+![RAG_AGENT_RESPONSE](https://github.com/JisnaP/Rag_Agent_for_Streaming_Data/blob/main/app_response.png)
