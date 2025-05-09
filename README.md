@@ -111,7 +111,7 @@ The app.py exposes:
 
 **GET /api/query?message=… **: SSE endpoint for streaming agent replies
 
-**POST /api/json_query **: return full answer as JSON
+
 
 
 ```python
