@@ -99,7 +99,7 @@ async def initialize_agent():
     memory = MemorySaver()
     graph = graph_builder.compile(checkpointer=memory)
 
-    # Create agent executor
+   
     return graph
 
     
@@ -116,7 +116,7 @@ if __name__ == '__main__':
             "What did the Securities and Exchange Commission publish this week"
         )
 
-        # <-- use astream, not stream
+       
         async for step in graph.astream(
             {"messages": [{"role": "user", "content": input_message}]},
             stream_mode="values",
